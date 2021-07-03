@@ -11,7 +11,7 @@ def prediction(net):
 
     # Create a canvas component
     image_data = st_canvas(
-        15, '#FFF', '#000', height=280,width=280, drawing_mode=drawing_mode, key="canvas"
+        15, '#FFF', '#000', 280,280, drawing_mode, "canvas"
     )
 
     # Predicting the image
