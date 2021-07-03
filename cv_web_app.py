@@ -7,7 +7,7 @@ from utils import *
 
 def prediction(net):   
     # Draw or clear?
-    drawing_mode = st.checkbox("Draw or clear?",True)
+    drawing_mode = st.checkbox("Draw or clear?",False)
 
     # Create a canvas component
     image_data = st_canvas(
